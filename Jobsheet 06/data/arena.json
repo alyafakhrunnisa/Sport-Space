@@ -1,0 +1,7 @@
+[
+    { "id_arena": "BD-07", "nama": "Lapangan 2", "kategori": "Badminton", "harga": 5000, "status": "Tersedia" },
+    { "id_arena": "BB-01", "nama": "Lapangan 5", "kategori": "Badminton", "harga": 50000, "status": "Dipakai" },
+    { "id_arena": "BL-01", "nama": "Meja 01", "kategori": "Biliar", "harga": 25000, "status": "Tersedia" },
+    { "id_arena": "VL-01", "nama": "Lapangan Voli Indoor", "kategori": "Voli", "harga": 80000, "status": "Tersedia" },
+    { "id_arena": "TN-01", "nama": "Lapangan Tenis Outdoor", "kategori": "Tenis", "harga": 100000, "status": "Tersedia" }
+]

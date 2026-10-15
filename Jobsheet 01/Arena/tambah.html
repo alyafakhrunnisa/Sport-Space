@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>SportSpace | Tambah Arena</title>
+</head>
+<body>
+    <header>
+        <h1>SportSpace</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Beranda</a></li>
+                <li><a href="list.html">Daftar Arena</a></li>
+                <li><a href="tambah.html">Tambah Arena</a></li>
+                <li><a href="../member/list.html">Daftar Member</a></li>
+                <li><a href="../member/tambah.html">Tambah Member</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Tambah Fasilitas Baru</h2>
+            <p>Masukkan data lapangan/meja ke dalam sistem</p>
+            <form>
+                <p>
+                    <label for="id_arena">ID Arena</label><br>
+                    <input type="text" id="id_arena" name="id_arena" placeholder="Contoh: BD-01" required>
+                </p>
+                <p>
+                    <label for="kategori">Kategori</label><br>
+                    <select id="kategori" name="kategori">
+                        <option value="badminton">Badminton</option>
+                        <option value="basket">Basket</option>
+                        <option value="futsal">Futsal</option>
+                        <option value="biliar">Biliar</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="nama_lapangan">Nama Lapangan / Meja</label><br>
+                    <input type="text" id="nama_lapangan" name="nama_lapangan" required>
+                </p>
+                <p>
+                    <label for="harga">Harga per Jam (Rp)</label><br>
+                    <input type="number" id="harga" name="harga" min="0" required>
+                </p>
+                <p>
+                    <label for="status">Status Saat Ini</label><br>
+                    <select id="status" name="status">
+                        <option value="tersedia">Tersedia</option>
+                        <option value="dipakai">Dipakai</option>
+                    </select>
+                </p>
+                <p>
+                    <button type="submit">Simpan Data Arena</button>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 SportSpace &mdash; Jobsheet 1</p>
+    </footer>
+</body>
+</html>

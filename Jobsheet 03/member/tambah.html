@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SportSpace | Tambah Member</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>SportSpace</h1>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">&#9776;</label>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Beranda</a></li>
+                <li><a href="../arena/list.html">Daftar Arena</a></li>
+                <li><a href="../arena/tambah.html">Tambah Arena</a></li>
+                <li><a href="list.html">Daftar Member</a></li>
+                <li><a href="tambah.html">Tambah Member</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Registrasi Member</h2>
+            <p>Daftarkan pelanggan setia baru</p>
+            <form>
+                <p>
+                    <label for="id_member">ID Member</label><br>
+                    <input type="text" id="id_member" name="id_member" placeholder="Contoh: M-001" required>
+                </p>
+                <p>
+                    <label for="tipe_keanggotaan">Tipe Keanggotaan</label><br>
+                    <select id="tipe_keanggotaan" name="tipe_keanggotaan">
+                        <option value="reguler">Reguler (Standar)</option>
+                        <option value="vip">VIP</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="nama_lengkap">Nama Lengkap</label><br>
+                    <input type="text" id="nama_lengkap" name="nama_lengkap" required>
+                </p>
+                <p>
+                    <label for="no_hp">No. HP / WhatsApp</label><br>
+                    <input type="text" id="no_hp" name="no_hp" required>
+                </p>
+                <p>
+                    <label for="email">Email Aktif</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+                <p>
+                    <label for="tanggal_bergabung">Tanggal Bergabung</label><br>
+                    <!-- Menggunakan type="date" agar otomatis muncul kalender -->
+                    <input type="date" id="tanggal_bergabung" name="tanggal_bergabung" required>
+                </p>
+                <p>
+                    <button type="submit">Simpan Data Member</button>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 SportSpace &mdash; Jobsheet 3</p>
+    </footer>
+</body>
+</html>

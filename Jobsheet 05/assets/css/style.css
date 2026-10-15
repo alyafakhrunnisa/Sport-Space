@@ -1,0 +1,73 @@
+/* ===== Reset & Base Custom SportSpace ===== */
+body { 
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #F9F9F6 !important; 
+}
+
+a {
+    color: #4A6054; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+th:last-child,
+td:last-child {
+    text-align: center;
+}
+
+/* Warna Utama */
+.bg-aesthetic { background-color: #4A6054 !important; }
+.text-aesthetic { color: #4A6054 !important; }
+.border-aesthetic { border-color: #4A6054 !important; }
+
+/* Tombol Aksi Tabel */
+.btn-edit-aes {
+    background-color: #D4A373; 
+    color: #fff;
+    border: none;
+}
+.btn-edit-aes:hover { background-color: #b88a5d; color: #fff; }
+
+.btn-detail-aes {
+    background-color: #8FA396; 
+    color: #fff;
+    border: none;
+}
+.btn-detail-aes:hover { background-color: #7a8e81; color: #fff; }
+
+.btn-hapus-aes {
+    background-color: #CB8A8A; 
+    color: #fff;
+    border: none;
+}
+.btn-hapus-aes:hover { background-color: #b37373; color: #fff; }
+
+/* 1. Logika Menu Hamburger dari app.js */
+@media (max-width: 991px) {
+    header nav.nav-open {
+        display: block !important;
+    }
+}
+
+/* 2. Pesan Error Validasi Form (JS) */
+.error {
+    display: block;
+    color: #CB8A8A; 
+    font-size: 0.85rem;
+    margin-top: 0.25rem;
+}
+
+/* 3. Kolom Pencarian Aesthetic (JS) */
+.search-box {
+    margin-bottom: 1rem;
+}
+.search-box input {
+    width: 100%;
+    max-width: 320px;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #8FA396; 
+    border-radius: 4px;
+}

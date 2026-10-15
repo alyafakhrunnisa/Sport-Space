@@ -1,0 +1,4 @@
+[
+    { "id_member": "M-001", "nama": "Fakhrun", "tipe": "Reguler", "no_hp": "0347", "email": "fakhrun@gmail.com", "tgl_gabung": "07 Oct 2026" },
+    { "id_member": "M-002", "nama": "Nafi", "tipe": "VIP", "no_hp": "56645", "email": "nafi@gmail.com", "tgl_gabung": "08 Oct 2026" }
+]
